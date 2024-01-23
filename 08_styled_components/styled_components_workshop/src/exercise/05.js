@@ -13,6 +13,15 @@ const GlobalStyle = createGlobalStyle`
   }
 
   /* ✅ try adding a global style to all the h1 and p tags */
+  h1{
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: "Times New Roman";
+  }
+
+  p{
+    color: black;
+  }
 `;
 
 export default function App() {
